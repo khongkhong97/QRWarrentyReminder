@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "870147796410",
+    "firebase_url": "https://qrwarrentyreminder-cb7bb.firebaseio.com",
+    "project_id": "qrwarrentyreminder-cb7bb",
+    "storage_bucket": "qrwarrentyreminder-cb7bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870147796410:android:a67cdcffb85fac70",
+        "android_client_info": {
+          "package_name": "com.khong.qrwarrentyreminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870147796410-k5fil2677p2qgbtup94rekld0rivgij1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.khong.qrwarrentyreminder",
+            "certificate_hash": "3d6b7775da6bc3504afedc73a51963f8230912d3"
+          }
+        },
+        {
+          "client_id": "870147796410-39p78p8firebvs0srh35rrk7sojh70oq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMJDc0vn8gXqecloXT7uza-E1s6zNEI8E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870147796410-39p78p8firebvs0srh35rrk7sojh70oq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

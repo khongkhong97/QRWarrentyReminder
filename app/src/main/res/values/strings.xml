@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">QRWarrentyReminder</string>
+
+    <array name="colors">
+        <item>Black</item>
+        <item>White</item>
+        <item>Gold</item>
+        <item>Pink</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Yellow</item>
+    </array>
+
+    <array name="warrentyDuration">
+        <item>1 Week</item>
+        <item>1 Month</item>
+        <item>3 Month</item>
+        <item>6 Month</item>
+        <item>1 Year</item>
+        <item>2 Year</item>
+        <item>5 Year</item>
+    </array>
+
+    <array name="userTypes">
+        <item>User</item>
+        <item>Vendor</item>
+    </array>
+</resources>

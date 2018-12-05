@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewItemActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <EditText
+                android:id="@+id/editTextRegisterName"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:ems="10"
+                android:hint="Enter Register Item Name"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/buttonNewItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register Item"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listViewItem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="117dp" />
+    </RelativeLayout>
+
+</LinearLayout>
